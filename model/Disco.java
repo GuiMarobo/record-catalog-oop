@@ -58,6 +58,7 @@ public class Disco {
         for (Faixa faixa : faixas) {
             sb.append("  - ").append(faixa).append("\n");
         }
+
         return sb.toString();
     }
 }

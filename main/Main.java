@@ -81,7 +81,7 @@ public class Main {
                     return;
 
                 default:
-                    System.out.println("Opção inválida!");
+                    System.out.println("@@@ Opção inválida! Escolha entre 1 e 5 @@@");
             }
         }
     }

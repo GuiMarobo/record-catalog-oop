@@ -29,5 +29,6 @@ public class CatalogoRepository implements ICatalogoRepository{
                 .filter(disco -> disco.getTitulo().equalsIgnoreCase(titulo))
                 .findFirst()
                 .orElse(null);
+
     }
 }

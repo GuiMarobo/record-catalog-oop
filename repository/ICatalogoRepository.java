@@ -8,4 +8,5 @@ public interface ICatalogoRepository {
     void removeDisco (Disco disco);
     List<Disco> getDiscos();
     Disco buscarDiscoPorTitulo(String titulo);
+
 }

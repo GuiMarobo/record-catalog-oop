@@ -29,4 +29,5 @@ public class Faixa {
     public String toString() {
         return "Título: "+ titulo + ", Duração: " + duracao + "s";
     }
+
 }
